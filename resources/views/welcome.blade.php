@@ -1,7 +1,7 @@
 <x-app-layout>
     <div class="relative w-full max-w-2xl px-6 lg:max-w-7xl">
 
-        <main class="mt-6">
+        <main>
             <div class="grid gap-6 lg:grid-cols-2 lg:gap-8">
                 <a
                     href="https://laravel.com/docs"
@@ -181,9 +181,5 @@
                 </div>
             </div>
         </main>
-
-        <footer class="py-16 text-center text-sm text-black dark:text-white/70">
-            Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
-        </footer>
     </div>
 </x-app-layout>

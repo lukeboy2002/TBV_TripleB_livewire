@@ -20,7 +20,9 @@
             document.documentElement.classList.remove('dark')
         }
     </script>
+    
     @vite(['resources/css/app.css', 'resources/js/app.js'])
+
 
     <!-- Styles -->
     @livewireStyles

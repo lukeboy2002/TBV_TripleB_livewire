@@ -1,5 +1,6 @@
 <button type="button" data-dropdown-toggle="notification-dropdown"
-        class="p-2 text-gray-500 rounded-lg hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:focus:ring-gray-600">
+        class="p-2 text-textLight rounded-lg  hover:bg-gray-300 dark:text-textDark  dark:hover:bg-gray-700 focus:outline-none focus:bg-gray-300 dark:focus:bg-gray-700">
+
     <span class="sr-only">View notifications</span>
     <!-- Bell icon -->
     <svg aria-hidden="true" class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20"

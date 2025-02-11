@@ -19,6 +19,21 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                bgDark: "#111827",
+                bgLight: "#e6e7eb",
+                textDark: "#e6e7eb",
+                textLight: "#111827",
+                textOrange: "#f97316",
+                borderGray: "#2f3336",
+                borderOrange: "#f97316",
+                inputGray: "#202327",
+                iconOrange: "#f97316",
+                iconRed: "#ef4444",
+                iconBlue: "#1d9bf0",
+                iconGreen: "#00ba7c",
+                iconPink: "#f91880",
+            },
         },
     },
 

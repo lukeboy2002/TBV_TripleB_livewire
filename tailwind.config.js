@@ -25,6 +25,8 @@ export default {
                 textDark: "#e6e7eb",
                 textLight: "#111827",
                 textOrange: "#f97316",
+                borderDark: "#6b7280",
+                borderLight: "#d1d5db",
                 borderGray: "#2f3336",
                 borderOrange: "#f97316",
                 inputGray: "#202327",

@@ -5,13 +5,13 @@
     {{--        </h2>--}}
     {{--    </x-slot>--}}
 
-    <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-        <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
-            <x-welcome/>
-        </div>
-    </div>
+    <x-card class="p-6 lg:p-8">
+        <x-welcome/>
+    </x-card>
 
     <x-slot name="side">
-        sidebar
+        <x-card class="p-2">
+            sidebar
+        </x-card>
     </x-slot>
 </x-app-layout>

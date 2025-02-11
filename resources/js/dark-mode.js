@@ -9,9 +9,7 @@ if (localStorage.getItem('color-theme') === 'dark' || (!('color-theme' in localS
 }
 
 var themeToggleBtn = document.getElementById('theme-toggle');
-
 themeToggleBtn.addEventListener('click', function () {
-
     // toggle icons inside button
     themeToggleDarkIcon.classList.toggle('hidden');
     themeToggleLightIcon.classList.toggle('hidden');
@@ -36,5 +34,14 @@ themeToggleBtn.addEventListener('click', function () {
             localStorage.setItem('color-theme', 'dark');
         }
     }
-
 });
+
+document.addEventListener('livewire:navigated', function () {
+    if (localStorage.getItem('color-theme')) {
+        if (localStorage.getItem('color-theme') === 'light') {
+            document.documentElement.classList.add('light');
+        } else {
+            document.documentElement.classList.add('dark');
+        }
+    }
+})

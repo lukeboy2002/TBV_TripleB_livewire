@@ -1,3 +1,4 @@
+@persist('darkMode')
 <button id="theme-toggle" type="button"
         class="p-2 text-gray-500 rounded-lg hover:text-gray-900 hover:bg-gray-100 dark:text-gray-400 dark:hover:text-white dark:hover:bg-gray-700 focus:ring-4 focus:outline-none focus:ring-gray-300 dark:focus:ring-gray-600">
     <svg id="theme-toggle-dark-icon" class="hidden w-5 h-5" fill="currentColor" viewBox="0 0 20 20"
@@ -11,3 +12,4 @@
             fill-rule="evenodd" clip-rule="evenodd"></path>
     </svg>
 </button>
+@endpersist
